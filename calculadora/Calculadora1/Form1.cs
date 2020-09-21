@@ -183,42 +183,11 @@ namespace Calculadora1
                     txtDisplay.Text = Convert.ToString(a);
                 }
             }
-            /*else if (operador == "%")
-            {
-                label1.Text = label1.Text + txtDisplay.Text + "=";
-                if (txtDisplay.Text != "")
-                {
-                    txtDisplay.Text = Convert.ToString(a % Convert.ToInt32(txtDisplay.Text));
-                }
-                else
-                {
-                    txtDisplay.Text = Convert.ToString(a);
-                }*/
+            
         }
 
     }
 
-    /* private void btnPorcentagem_Click(object sender, EventArgs e)
-     {
-         if (validar == true)
-         {
-             txtDisplay.Focus();
-             a = a * ( Convert.ToInt32(txtDisplay.Text)/100);
-             label1.Text = Convert.ToString(a) + "%";
-             txtDisplay.Text = "";
-             operador = "%";
-             txtDisplay.Focus();
-         }
-         else
-         {
-             label1.Text = txtDisplay.Text + btnPorcentagem.Text;
-             a = Convert.ToInt32(txtDisplay.Text);
-             txtDisplay.Text = "";
-             operador = "%";
-             validar = true;
-             txtDisplay.Focus();
-
-         }
-     }*/
+    
 }
 
